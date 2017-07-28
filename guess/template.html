@@ -1,0 +1,53 @@
+		<div class="detail_main">
+			<ul class="clearfix">
+				<li>
+					<img src="favicon.ico" alt="">
+					<p><a href="javascript:;" class="section_title ng-binding">返回首页</a></p>
+					<a href="#" class="btn_column">专栏首页</a>
+				</li>
+				<li class="ng-scope">
+					<img src="assets/img/百思不得姐.jpg" alt="">
+					<p><a href="javascript:;" class="section_title ng-binding">百思不得姐</a></p>
+					<p class="item_content ng-binding">所有数据来源于【百思不得姐网站】</p>
+					<p class="heat ng-binding">qq： 1207063300</p>
+					<a href="#/sister" class="btn_column">进入专栏</a>
+				</li>
+				<li class="ng-scope">
+					<img src="assets/img/QQ音乐.jpg" alt="">
+					<p><a href="javascript:;" class="section_title ng-binding">QQ音乐</a></p>
+					<p class="item_content ng-binding">所有数据采集于QQ音乐官网，链接均指击QQ网站，QQ拥有全部数据版权。</p>
+					<p class="heat ng-binding">无联系方式</p>
+					<a href="#/music" class="btn_column">进入专栏</a>
+				</li>
+				<li class="ng-scope">
+					<img src="assets/img/猜一猜.png" alt="">
+					<p><a href="javascript:;" class="section_title ng-binding">猜一猜</a></p>
+					<p class="item_content ng-binding">有2.5万谜语，每日更新。</p>
+					<p class="heat ng-binding">qq： 2802673087</p>
+					<a href="#/guess" class="btn_column">进入专栏</a>
+				</li>
+				<li class="ng-scope">
+					<img src="assets/img/健康资讯.png" alt="">
+					<p><a href="javascript:;" class="section_title ng-binding">健康资讯</a></p>
+					<p class="item_content ng-binding">提供医疗卫生行业最新资讯,追踪健康焦点事件</p>
+					<p class="heat ng-binding">qq： 3244194454</p>
+					<a href="#/health" class="btn_column">进入专栏</a>
+				</li>
+				<li class="ng-scope">
+					<img src="assets/img/食谱大全.png" alt="">
+					<p><a href="javascript:;" class="section_title ng-binding">食谱大全</a></p>
+					<p class="item_content ng-binding">本菜谱的信息来源于网络，收录的有十万多条最新的菜谱</p>
+					<p class="heat ng-binding">电话： 0871-67410244</p>
+					<a href="#/cook" class="btn_column">进入专栏</a>
+				</li>
+			</ul>
+		</div>
+		<div class="recommend_item">
+			<ul class="guess">
+				<li ng-repeat="item in data">
+					<span>{{item.typeName}}</span>
+					<p>{{item.Title}}</p>
+					<p>{{item.Answer}}</p>					
+				</li>
+			</ul>
+		</div>

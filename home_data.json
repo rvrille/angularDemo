@@ -1,0 +1,37 @@
+[
+	{
+		"pic":"assets/img/百思不得姐.jpg",
+		"title":"百思不得姐",
+		"recommend":"所有数据来源于【百思不得姐网站】",
+		"qq":"qq： 1207063300",
+		"href":"#/sister"
+	},
+	{
+		"pic":"assets/img/QQ音乐.jpg",
+		"title":"QQ音乐",
+		"recommend":"所有数据采集于QQ音乐官网，链接均指击QQ网站，QQ拥有全部数据版权。",
+		"qq":"无联系方式",
+		"href":"#/music"
+	},
+	{
+		"pic":"assets/img/猜一猜.png",
+		"title":"猜一猜",
+		"recommend":"有2.5万谜语，每日更新。",
+		"qq":"qq： 2802673087",
+		"href":"#/guess"
+	},
+	{
+		"pic":"assets/img/健康资讯.png",
+		"title":"健康资讯",
+		"recommend":"提供医疗卫生行业最新资讯,追踪健康焦点事件",
+		"qq":"qq： 3244194454",
+		"href":"#/health"
+	},
+	{
+		"pic":"assets/img/食谱大全.png",
+		"title":"食谱大全",
+		"recommend":"本菜谱的信息来源于网络，收录的有十万多条最新的菜谱",
+		"qq":"电话： 0871-67410244",
+		"href":"#/cook"
+	}
+]

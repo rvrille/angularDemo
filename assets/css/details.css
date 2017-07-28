@@ -1,0 +1,152 @@
+.detail_main{
+	float: left;
+	margin-top: 60px;
+	width: 200px;
+	height: 100%;
+	border-right: 1px solid #F7F7F7;
+	background: white;
+}
+.detail_main ul li{
+	width: 200px;
+	height: 80px;
+	list-style: none;
+	position: relative;
+	padding-left: 60px;
+}
+.detail_main ul li img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+}
+.detail_main ul li .section_title{
+	font-size: 14px;
+	color: gray;
+}
+.detail_main .item_content{
+	display: none;
+}
+.detail_main .heat{
+	display: none;
+}
+.detail_main .btn_column{
+	float: left;
+	display: block;
+	font-size: 14px;
+	width: 88px;
+	height: 30px;
+	border: 1px solid #50C87E;
+	border-radius: 5px;
+	color: #50C87E;
+	text-align: center;
+	line-height: 30px;
+}
+
+.detail_main .btn_column:hover{
+	background: rgba(80,200,126,0.08);
+}
+.detail_main .btn_column:active{
+	background: rgba(80,200,126,1);
+	color: white;
+}
+
+.recommend_item{
+	font-family: "microsoft yahei";
+	width: 840px;
+}
+.recommend_item ul.sister li span{
+	font-size: 14px;
+	color: gray;
+}
+.recommend_item ul.sister li img{
+	display: block;
+}
+.recommend_item ul.sister li p{
+	color: #333;
+	font-size: 14px;
+}
+
+.recommend_item ul.music li{
+	width: 840px;
+	height: 80px;	
+	border-bottom: 1px solid gray;
+	position: relative;
+}
+.recommend_item ul.music li>a{
+	display: block;
+	width: 840px;
+	height: 80px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.recommend_item ul.music li>a strong{
+	line-height: 30px;
+	color: #333;
+	font-size: 14px;
+}
+.recommend_item ul.music li>a em{
+	display: block;
+	line-height: 30px;
+	color: #333;
+	font-size: 14px;
+}
+.recommend_item ul.music li>a span.audio_btn{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 80px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	cursor: pointer;
+	color: #333;
+}
+.recommend_item ul.music li>a span.audio_btn:hover{
+	background: rgba(0,0,0,0.08)
+}
+.data_item{
+	padding-top: 80px;
+	padding-left: 250px;
+	background: url(../img/83364567.bg@2x.png);
+	background-clip: padding-box;
+	color: #333;
+}
+.data_item .songname{
+	line-height: 30px;
+	font-size: 16px;
+}
+.data_item .singername{
+	font-size: 14px;
+	color: gray;
+	line-height: 24px;
+}
+.data_item .seconds{
+	font-size: 14px;
+	color: gray;
+}
+
+
+.prev,.next {
+    border: none;
+    border-radius: 4px;
+    background: #2aabd2;
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.disable {
+    cursor: unset !important;
+    background: #ccc !important;
+}
+
+.recommend_item ul.guess li{
+	border-bottom: 1px dashed #666;
+	padding: 20px;
+}
